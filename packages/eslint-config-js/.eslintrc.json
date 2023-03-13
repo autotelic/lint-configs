@@ -1,0 +1,74 @@
+{
+  "extends": ["standard"],
+  "plugins": ["import", "n"],
+  "rules": {
+    "array-bracket-newline": ["error", "consistent"],
+    "arrow-body-style": ["error", "as-needed"],
+    "complexity": ["error", {
+      "max": 15
+    }],
+    "default-param-last": ["error"],
+    "func-names": ["error", "as-needed"],
+    "func-style": ["error", "declaration", {
+      "allowArrowFunctions": true
+    }],
+    "max-len": ["error", {
+      "code": 110,
+      "ignoreComments": false,
+      "ignoreTrailingComments": false
+    }],
+    "multiline-comment-style": ["error", "starred-block"],
+    "no-bitwise": "error",
+    "no-confusing-arrow": "error",
+    "no-else-return": "error",
+    "no-magic-numbers": ["error", {
+      "ignoreArrayIndexes": true,
+      "ignoreDefaultValues": true,
+      "ignoreClassFieldInitialValues": true
+    }],
+    "no-multi-assign": "error",
+    "no-nested-ternary": "error",
+    "no-return-await": "error",
+    "no-warning-comments": ["warn", {
+      "terms": ["todo"]
+    }],
+    "object-shorthand": ["error", "always"],
+    "require-atomic-updates": ["error", {
+      "allowProperties": true
+    }],
+    "sort-keys": "error",
+    "import/default": "error",
+    "import/named": "error",
+    "import/no-cycle": ["error", {
+      "ignoreExternal": true
+    }],
+    "import/no-self-import": "error",
+    "import/order": ["error", {
+      "pathGroups": [{
+        "group": "builtin",
+        "pattern": "react",
+        "position": "before"
+      }],
+      "alphabetize": {
+        "order": "asc",
+        "caseInsensitive": true
+      },
+      "newlines-between": "always"
+    }],
+    "import/no-unresolved": ["error", {
+      "commonjs": true
+    }],
+    "n/no-unsupported-features/es-builtins": "error",
+    "n/no-unsupported-features/es-syntax": "error",
+    "n/no-unsupported-features/node-builtins": "error",
+    "n/prefer-global/buffer": ["error", "always"],
+    "n/prefer-global/console": ["error", "always"],
+    "n/prefer-global/process": ["error", "always"],
+    "n/prefer-global/text-decoder": ["error", "always"],
+    "n/prefer-global/text-encoder": ["error", "always"],
+    "n/prefer-global/url": ["error", "always"],
+    "n/prefer-global/url-search-params": ["error", "always"],
+    "n/prefer-promises/dns": "error",
+    "n/prefer-promises/fs": "error"
+  }
+}
