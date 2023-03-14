@@ -36,7 +36,6 @@
     "require-atomic-updates": ["error", {
       "allowProperties": true
     }],
-    "sort-keys": "error",
     "import/default": "error",
     "import/named": "error",
     "import/no-cycle": ["error", {
