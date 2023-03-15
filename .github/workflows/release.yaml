@@ -21,7 +21,7 @@ jobs:
           registry-url: 'https://registry.npmjs.org'
       - run: npm run version:bump -- --yes
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_PAT }}
+          GH_TOKEN: ${{ secrets.GH_PAT }}
       - run: npm run version:release -- --yes
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_PUBLISH_TOKEN }}
