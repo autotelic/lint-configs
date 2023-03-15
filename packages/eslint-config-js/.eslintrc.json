@@ -52,11 +52,6 @@
     }],
     "import/no-self-import": "error",
     "import/order": ["error", {
-      "pathGroups": [{
-        "group": "builtin",
-        "pattern": "react",
-        "position": "before"
-      }],
       "alphabetize": {
         "order": "asc",
         "caseInsensitive": true

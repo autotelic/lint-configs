@@ -1,6 +1,12 @@
 {
   "name": "@autotelic/lint-configs",
-  "private": true,
+  "scripts": {
+    "bootstrap": "lerna bootstrap --strict",
+    "clean": "lerna clean -y && lerna exec -- rm -f package-lock.json",
+    "validate": "lerna run lint",
+    "version:bump": "lerna version --conventional-commits",
+    "version:release": "lerna publish from-package"
+  },
   "workspaces": [
     "packages/*"
   ],

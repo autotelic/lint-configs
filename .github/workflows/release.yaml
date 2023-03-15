@@ -1,0 +1,27 @@
+name: Release
+on:
+  push:
+    branches:
+      - main
+jobs:
+  validate:
+    uses: ./.github/workflows/validate.yaml
+
+  release:
+    runs-on: ubuntu-latest
+    needs: validate
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - run: git config --global user.name "Github Actions Bot"
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '18.x'
+          registry-url: 'https://registry.npmjs.org'
+      - run: npm run version:bump -- --yes
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_PAT }}
+      - run: npm run version:release -- --yes
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_PUBLISH_TOKEN }}

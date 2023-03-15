@@ -10,6 +10,9 @@
   },
   "keywords": [
     "eslint",
+    "eslint-config",
+    "javascript",
+    "js",
     "lint",
     "standard"
   ],
@@ -30,5 +33,8 @@
   },
   "devDependencies": {
     "eslint": "^8.36.0"
+  },
+  "peerDependencies": {
+    "eslint": "^8.0.1"
   }
 }
