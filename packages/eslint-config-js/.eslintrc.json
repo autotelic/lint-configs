@@ -12,12 +12,20 @@
     "func-style": ["error", "declaration", {
       "allowArrowFunctions": true
     }],
+    "function-call-argument-newline": ["error", "consistent"],
+    "implicit-arrow-linebreak": ["error", "beside"],
     "max-len": ["error", {
       "code": 110,
+      "tabWidth": 2,
       "ignoreComments": false,
-      "ignoreTrailingComments": false
+      "ignoreTrailingComments": false,
+      "ignoreStrings": false,
+      "ignoreTemplateLiterals": true,
+      "ignoreUrls": true,
+      "ignoreRegExpLiterals": true
     }],
     "multiline-comment-style": ["error", "starred-block"],
+    "newline-per-chained-call": ["error", { "ignoreChainWithDepth": 3 }],
     "no-bitwise": "error",
     "no-confusing-arrow": "error",
     "no-else-return": "error",
