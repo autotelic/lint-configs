@@ -5,7 +5,7 @@ ___
 
 ## Lint Configs
 
-*Autotelic approved [eslint](https://eslint.org/docs/latest/) configs for various application types*
+*Autotelic approved [Eslint](https://eslint.org/docs/latest/) configs for various application types*
 
 ### Available Configs
 
