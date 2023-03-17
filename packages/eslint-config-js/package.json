@@ -1,0 +1,40 @@
+{
+  "name": "@autotelic/eslint-config-js",
+  "version": "0.0.0",
+  "description": "base eslint config for js apps",
+  "main": "index.js",
+  "files": [".eslintrc.json"],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "javascript",
+    "js",
+    "lint",
+    "standard"
+  ],
+  "author": "Holden Whitehead (holden@autotelic.com)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/autotelic/lint-configs.git",
+    "directory": "packages/eslint-config-js"
+  },
+  "homepage": "https://github.com/autotelic/lint-configs/tree/main/packages/eslint-config-js",
+  "license": "MIT",
+  "dependencies": {
+    "@rushstack/eslint-patch": "^1.2.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.6.1",
+    "eslint-plugin-promise": "^6.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.36.0"
+  },
+  "peerDependencies": {
+    "eslint": "^8.0.1"
+  }
+}
