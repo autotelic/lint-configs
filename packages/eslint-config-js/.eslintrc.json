@@ -17,7 +17,7 @@
     "max-len": ["error", {
       "code": 110,
       "tabWidth": 2,
-      "ignoreComments": false,
+      "ignoreComments": true,
       "ignoreTrailingComments": false,
       "ignoreStrings": false,
       "ignoreTemplateLiterals": true,
@@ -29,17 +29,9 @@
     "no-bitwise": "error",
     "no-confusing-arrow": "error",
     "no-else-return": "error",
-    "no-magic-numbers": ["error", {
-      "ignoreArrayIndexes": true,
-      "ignoreDefaultValues": true,
-      "ignoreClassFieldInitialValues": true
-    }],
     "no-multi-assign": "error",
     "no-nested-ternary": "error",
     "no-return-await": "error",
-    "no-warning-comments": ["warn", {
-      "terms": ["todo"]
-    }],
     "object-shorthand": ["error", "always"],
     "require-atomic-updates": ["error", {
       "allowProperties": true
