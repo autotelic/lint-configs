@@ -15,7 +15,9 @@ jobs:
         with:
           token: ${{ secrets.GH_PAT }}
           fetch-depth: 0
-      - run: git config --global user.name "github-actions[bot]"
+      - run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
       - uses: actions/setup-node@v3
         with:
           node-version: '18.x'
