@@ -4,7 +4,7 @@
     "bootstrap": "lerna bootstrap --strict",
     "clean": "lerna clean -y && lerna exec -- rm -f package-lock.json",
     "validate": "lerna run lint",
-    "version:bump": "lerna version --conventional-commits",
+    "version:bump": "lerna version --conventional-commits --create-release github",
     "version:release": "lerna publish from-package"
   },
   "workspaces": [
