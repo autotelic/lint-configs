@@ -13,8 +13,7 @@
   },
   "rules": {
     "react/function-component-definition": ["error", {
-      "namedComponents": ["function-declaration", "arrow-function"],
-      "unnamedComponents": "arrow-function"
+      "namedComponents": ["function-declaration", "arrow-function"]
     }],
     "react/jsx-boolean-value": ["error", "always"],
     "react/jsx-closing-bracket-location": "error",
@@ -98,6 +97,6 @@
     "react/style-prop-object": "error",
     "react/void-dom-elements-no-children": "error",
     "react-hooks/rules-of-hooks": "error",
-    "react-hooks/exhaustive-deps": "warn"
+    "react-hooks/exhaustive-deps": "error"
   }
 }
