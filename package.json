@@ -2,7 +2,7 @@
   "name": "@autotelic/lint-configs",
   "scripts": {
     "bootstrap": "lerna bootstrap --strict",
-    "clean": "lerna clean -y && lerna exec -- rm -f package-lock.json",
+    "clean": "lerna clean -y && lerna exec -- rm -f package-lock.json && rm -rf package-lock.json node_modules",
     "validate": "lerna run lint",
     "version:bump": "lerna version --conventional-commits --create-release github",
     "version:release": "lerna publish from-package"
