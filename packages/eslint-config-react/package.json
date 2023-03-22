@@ -1,0 +1,46 @@
+{
+  "name": "@autotelic/eslint-config-react",
+  "version": "0.0.0",
+  "description": "base eslint config for react apps",
+  "main": "index.js",
+  "files": [
+    ".eslintrc.json"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "javascript",
+    "js",
+    "jsx",
+    "lint",
+    "react",
+    "standard"
+  ],
+  "author": "Holden Whitehead (holden@autotelic.com)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/autotelic/lint-configs.git",
+    "directory": "packages/eslint-config-react"
+  },
+  "homepage": "https://github.com/autotelic/lint-configs/tree/main/packages/eslint-config-react",
+  "license": "MIT",
+  "dependencies": {
+    "@autotelic/eslint-config-js": "^0.1.1",
+    "@rushstack/eslint-patch": "^1.2.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.36.0"
+  },
+  "peerDependencies": {
+    "eslint": "^8.0.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

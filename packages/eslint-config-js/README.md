@@ -1,6 +1,6 @@
 # Autotelic - Eslint Config JS
 
-*Base [Eslint](https://eslint.org/docs/latest/) configuration for any JavaScript application*
+*Autotelic's base [Eslint](https://eslint.org/docs/latest/) configuration for any JavaScript application*
 
 ### Usage
 
