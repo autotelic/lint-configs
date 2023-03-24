@@ -9,4 +9,6 @@ ___
 
 ### Available Configs
 
- - [**Eslint Config JS**](./packages/eslint-config-js/README.md) - *Base Eslint configuration for any JavaScript application*
+ - [**Eslint Config JS**](https://github.com/autotelic/lint-configs/tree/main/packages/eslint-config-js#readme) - *Base Eslint configuration for any JavaScript application*
+
+ - [**Eslint Config React**](https://github.com/autotelic/lint-configs/tree/main/packages/eslint-config-react#readme) - *Base Eslint configuration for React applications*
