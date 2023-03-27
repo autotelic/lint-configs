@@ -12,10 +12,24 @@
     }
   },
   "rules": {
+    "import/order": ["error", {
+      "alphabetize": {
+        "order": "asc",
+        "caseInsensitive": true
+      },
+      "groups": ["builtin", "external", "parent", "sibling", "index"],
+      "newlines-between": "always",
+      "pathGroups": [{
+        "group": "builtin",
+        "pattern": "react",
+        "position": "before"
+      }],
+      "pathGroupsExcludedImportTypes": ["builtin"]
+    }],
     "react/function-component-definition": ["error", {
       "namedComponents": ["function-declaration", "arrow-function"]
     }],
-    "react/jsx-boolean-value": ["error", "always"],
+    "react/jsx-boolean-value": ["error", "never"],
     "react/jsx-closing-bracket-location": "error",
     "react/jsx-closing-tag-location": "error",
     "react/jsx-curly-brace-presence": ["error", {
