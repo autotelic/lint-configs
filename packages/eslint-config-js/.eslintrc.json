@@ -19,7 +19,7 @@
       "tabWidth": 2,
       "ignoreComments": true,
       "ignoreTrailingComments": false,
-      "ignoreStrings": false,
+      "ignoreStrings": true,
       "ignoreTemplateLiterals": true,
       "ignoreUrls": true,
       "ignoreRegExpLiterals": true
