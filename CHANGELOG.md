@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.1](https://github.com/autotelic/lint-configs/compare/v0.2.0...v0.2.1) (2023-03-28)
+
+
+### Bug Fixes
+
+* boolean value, string lengths, react import order ([#8](https://github.com/autotelic/lint-configs/issues/8)) ([ebeb295](https://github.com/autotelic/lint-configs/commit/ebeb2952a8035a5cc759e69692e4d65bc0b0410d))
+
+
+
+
+
 # [0.2.0](https://github.com/autotelic/lint-configs/compare/v0.1.1...v0.2.0) (2023-03-22)
 
 
