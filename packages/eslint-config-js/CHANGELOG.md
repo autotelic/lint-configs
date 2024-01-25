@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/autotelic/lint-configs/compare/v0.2.1...v0.3.0) (2024-01-25)
+
+
+### Features
+
+* remove multiline-comment rule ([#9](https://github.com/autotelic/lint-configs/issues/9)) ([3072f7a](https://github.com/autotelic/lint-configs/commit/3072f7ad5d55b6f6d4b7a7b63cd69dfe1802bd1c))
+
+
+
+
+
 ## [0.2.1](https://github.com/autotelic/lint-configs/compare/v0.2.0...v0.2.1) (2023-03-28)
 
 

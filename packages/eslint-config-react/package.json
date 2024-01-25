@@ -1,6 +1,6 @@
 {
   "name": "@autotelic/eslint-config-react",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "base eslint config for react apps",
   "main": "index.js",
   "files": [
@@ -29,7 +29,7 @@
   "homepage": "https://github.com/autotelic/lint-configs/tree/main/packages/eslint-config-react",
   "license": "MIT",
   "dependencies": {
-    "@autotelic/eslint-config-js": "^0.2.1",
+    "@autotelic/eslint-config-js": "^0.3.0",
     "@rushstack/eslint-patch": "^1.2.0",
     "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0"
