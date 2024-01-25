@@ -12,5 +12,6 @@ jobs:
         with:
           registry-url: 'https://registry.npmjs.org/'
           node-version: ${{ matrix.node }}
+      - run: npm install
       - run: npm run bootstrap
       - run: npm run validate
