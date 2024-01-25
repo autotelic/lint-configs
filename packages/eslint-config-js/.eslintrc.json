@@ -24,7 +24,6 @@
       "ignoreUrls": true,
       "ignoreRegExpLiterals": true
     }],
-    "multiline-comment-style": ["error", "starred-block"],
     "newline-per-chained-call": ["error", { "ignoreChainWithDepth": 3 }],
     "no-bitwise": "error",
     "no-confusing-arrow": "error",
