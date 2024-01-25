@@ -22,6 +22,7 @@ jobs:
         with:
           node-version: '18.x'
           registry-url: 'https://registry.npmjs.org'
+      - run: npm install
       - run: npm run version:bump -- --yes
         env:
           GH_TOKEN: ${{ secrets.GH_PAT }}
