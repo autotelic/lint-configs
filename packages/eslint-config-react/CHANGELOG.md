@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.4.0](https://github.com/autotelic/lint-configs/compare/v0.3.0...v0.4.0) (2024-03-15)
+
+
+### Features
+
+* update to flat configs ([#11](https://github.com/autotelic/lint-configs/issues/11)) ([15abd48](https://github.com/autotelic/lint-configs/commit/15abd48d726f239253b71bd1bf0cc2969592a104))
+
+
+
+
+
 # [0.3.0](https://github.com/autotelic/lint-configs/compare/v0.2.1...v0.3.0) (2024-01-25)
 
 **Note:** Version bump only for package @autotelic/eslint-config-react
