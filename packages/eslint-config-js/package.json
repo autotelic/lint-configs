@@ -3,9 +3,7 @@
   "version": "0.3.0",
   "description": "base eslint config for js apps",
   "main": "index.js",
-  "files": [
-    ".eslintrc.json"
-  ],
+  "files": ["standard.js"],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint ."
@@ -27,11 +25,11 @@
   "homepage": "https://github.com/autotelic/lint-configs/tree/main/packages/eslint-config-js",
   "license": "MIT",
   "dependencies": {
-    "@rushstack/eslint-patch": "^1.2.0",
-    "eslint-config-standard": "^17.0.0",
-    "eslint-plugin-import": "^2.27.5",
-    "eslint-plugin-n": "^15.6.1",
-    "eslint-plugin-promise": "^6.1.1"
+    "eslint-config-standard": "17.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-n": "^16.6.2",
+    "eslint-plugin-promise": "^6.1.1",
+    "globals": "^14.0.0"
   },
   "devDependencies": {
     "eslint": "^8.36.0"

@@ -4,8 +4,6 @@
 
 ### Usage
 
-Thanks to [`@rushstack/eslint-patch`](https://github.com/microsoft/rushstack/tree/main/eslint/eslint-patch#readme), this package has no peer dependencies other than `eslint`. To use `@autotelic/eslint-config-react` in your project, just run one of the following install commands and add the `.eslintrc.json` suggested below.
-
 #### NPM
 
 ```sh
@@ -18,17 +16,51 @@ npm i --save-dev eslint @autotelic/eslint-config-react
 yarn add --dev eslint @autotelic/eslint-config-react
 ```
 
-#### `.eslintrc.json`
+#### `eslint.config.js`
 
-```json
-{
-  "extends": ["@autotelic/eslint-config-react"],
-  "settings": {
-    "node": {
-      "version": "^18.x", // Any Node version >= 16
+```js
+const configReact = require('@autotelic/eslint-config-react')
+
+module.exports = [
+  configReact,
+  {
+    // ...Additional config
+  }
+]
+
+```
+
+#### `eslint.config.mjs`
+
+```js
+import configReact from '@autotelic/eslint-config-react'
+
+export default [
+  configReact,
+  {
+    // ...Additional config
+  }
+]
+
+```
+
+#### Configuring Node Version
+
+By default the Node version is set to `^20.x`, if a different or a more specific version is preferred it can be configured as follows:
+
+```js
+// eslint.config.js
+const configReact = require('@autotelic/eslint-config-react')
+
+module.exports = [
+  configReact,
+  {
+  settings: {
+    node: {
+      version: '20.11.1'
     }
   }
-}
+}]
 ```
 
 ### About
