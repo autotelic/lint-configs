@@ -3,7 +3,7 @@
   "scripts": {
     "bootstrap": "lerna bootstrap --strict",
     "clean": "lerna clean -y && lerna exec -- rm -f package-lock.json && rm -rf package-lock.json node_modules",
-    "validate": "lerna run lint",
+    "validate": "eslint .",
     "version:bump": "lerna version --conventional-commits --create-release github",
     "version:release": "lerna publish from-package"
   },
@@ -11,6 +11,7 @@
     "packages/*"
   ],
   "devDependencies": {
+    "eslint": "^8.57.0",
     "lerna": "^6.5.1"
   }
 }
